@@ -4,7 +4,7 @@ The code contains a models to jointly and automatically generate the rythmic hea
 
 ## Example
 
-![A simple sample](docs/example.mp4)
+![A simple sample](docs/m1.mp4)
 
 To see more examples go [here](https://www.youtube.com/playlist?list=PLRyxHB7gYN-BPB6RvTt2xPE9nwLuMq2yD).
 
