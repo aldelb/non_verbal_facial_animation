@@ -4,11 +4,9 @@ For example, the type of hidden layers can only be customised for the CGAN model
 
 ```
 [MODEL_TYPE]
-model = id of the model [1: CGAN, 2: AED, 3: ED]
-w_gan = if wasserstein GAN
-unroll_steps = number of unroll step in case of adversarial learning [False; [integer]]
-layer = type of layer, editable only for CGAN [CONV;LSTM;GRU] 
-hidden_size = [integer]
+model = 1
+w_gan = True
+unroll_steps = False
 first_kernel_size = [odd integer]
 kernel_size = [odd integer]
 dropout = [number] between 0 and 1
@@ -28,31 +26,33 @@ batch_size = [integer]
 d_lr = discriminator learning rate: [number] between 0 and 1
 g_lr = generator learning rate: [number] between 0 and 1
 log_interval = The frequency in number of epochs for the backups of training and graphics: [integer]
-adversarial_coeff = only for AED, coefficient of the "adversarial" part in the loss function: [number] between 0 and 1
-au_coeff = only for AED : [number] between 0 and 1
-eye_coeff = only for AED : [number] between 0 and 1
-pose_coeff = only for AED : [number] between 0 and 1
+adversarial_coeff = coefficient of the "adversarial" part in the loss function: [number] between 0 and 1
+au_coeff = [number] between 0 and 1
+eye_coeff = [number] between 0 and 1
+pose_coeff = [number] between 0 and 1
 fake_target = if fake target are only those generate by the generator or also mix examples
 
 [DATA]
+scale_each_audio = True
+scale_each_pose = False
 noise_size = CGAN input noise size: [integer]
 pose_size = 11
 eye_size = 8
 pose_t_size = 3
 pose_r_size = 3
 au_size = 17
-derivative = If the first and second derivatives are considered in the input features: [False; True]
+derivative = True
+sequence_len = 100
 
 [selected_opensmile_columns]
-0 = Loudness_sma3
-1 = F0semitoneFrom27.5Hz_sma3nz
-2 = shimmerLocaldB_sma3nz
-3 = logRelF0-H1-H2_sma3nz
-4 = logRelF0-H1-A3_sma3nz
-5 = mfcc1_sma3
-6 = mfcc2_sma3
-7 = mfcc3_sma3
-8 = mfcc4_sma3
+0 = Speak
+1 = alphaRatio_sma3
+2 = hammarbergIndex_sma3
+3 = mfcc1_sma3
+4 = mfcc2_sma3
+5 = mfcc3_sma3
+6 = F0semitoneFrom27.5Hz_sma3nz
+7 = logRelF0-H1-H2_sma3nz
 
 [opensmile_columns]
 0 = Loudness_sma3
