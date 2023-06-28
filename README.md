@@ -8,6 +8,9 @@ https://github.com/behavioursGeneration/generation_of_facial_animation/assets/11
 
 To see more examples go [here](https://www.youtube.com/playlist?list=PLRyxHB7gYN-BPB6RvTt2xPE9nwLuMq2yD).
 
+## The architecture 
+![model](https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/69b9be4d-a048-47db-8d5d-f8996821c802)
+
 ## To reproduce
 1. Clone the repository
 2. In a conda console, execute 'conda env create -f environment.yml' to create the right conda environment. Go to the project location.
