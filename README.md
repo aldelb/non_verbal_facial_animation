@@ -4,7 +4,7 @@ The code contains a models to jointly and automatically generate the rythmic hea
 
 ## Example
 
-![A simple sample](docs/m1.gif)
+https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/00b65920-c7e7-46c0-8f73-145d17c607ec
 
 To see more examples go [here](https://www.youtube.com/playlist?list=PLRyxHB7gYN-BPB6RvTt2xPE9nwLuMq2yD).
 
