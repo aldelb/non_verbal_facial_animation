@@ -4,9 +4,10 @@ The code contains a models to jointly and automatically generate the rythmic hea
 
 ## Example
 
-https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/00b65920-c7e7-46c0-8f73-145d17c607ec
 
-To see more examples go [here](https://www.youtube.com/playlist?list=PLRyxHB7gYN-BPB6RvTt2xPE9nwLuMq2yD).
+https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/a8d5104d-7115-4d01-8736-f7659e2ec4ee
+
+To see examples with natural voices, go [here](https://www.youtube.com/playlist?list=PLRyxHB7gYN-BPB6RvTt2xPE9nwLuMq2yD).
 
 ## The architecture 
 ![model](https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/69b9be4d-a048-47db-8d5d-f8996821c802)
