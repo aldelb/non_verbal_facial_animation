@@ -5,7 +5,7 @@ The code contains a models to jointly and automatically generate the rythmic hea
 
 https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/a8d5104d-7115-4d01-8736-f7659e2ec4ee
 
-The video below is generated in English with speech synthesized from text (TTS).
+The video below is generated in English with speech synthesized from text (TTS). Please note, that the model is trained exclusively with natural French voices. 
 To see examples with natural voices, go [here](https://www.youtube.com/playlist?list=PLRyxHB7gYN-BPB6RvTt2xPE9nwLuMq2yD).
 
 ## The architecture 
