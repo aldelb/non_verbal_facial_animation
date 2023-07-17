@@ -9,7 +9,7 @@ The video below is generated in English with speech synthesized from text (TTS).
 To see examples with natural voices, go [here](https://www.youtube.com/playlist?list=PLRyxHB7gYN-BPB6RvTt2xPE9nwLuMq2yD).
 
 ## The architecture 
-![model](https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/69b9be4d-a048-47db-8d5d-f8996821c802)
+![big_model](https://github.com/behavioursGeneration/generation_of_facial_animation/assets/110098017/8545d710-9e41-4235-ad46-515f57dc9301)
 
 ## To reproduce
 1. Clone the repository
@@ -23,6 +23,8 @@ We extract the speech and visual features automatically from these videos using 
 
 1. Create a directory './data'.
 2. Download files found in [this drive](https://drive.google.com/drive/u/0/folders/16lF-p1wGfD3k9iVlrpTJ0A1mcZ92hvmj) for Trueness and in [this drive](https://drive.google.com/drive/u/0/folders/1XY9OMkyqPBBvl48zc7GigxaGRrkGEVC-) for Cheese and place them in the repository.
+
+Files with the suffix "moveSpeakerOnly" are those whose behaviors are set to 0 if the person doesn't speak.
 
 ### Models training
 1. "params.cfg" is the configuration file to customise the model before training. 
