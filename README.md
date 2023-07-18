@@ -63,7 +63,7 @@ To animate a virtual agent with the generated behaviors, we use the GRETA platfo
 2. Open GRETA. Open the configuration "Greta - Record AU.xml" which is already present in GRETA. 
 3. Use the block "AU Parser File Reader" and "Parser Capture Controller AU" to create the video from the .csv file generated.
 
-4. ### Add voice 
+### Add voice 
 You can directly concatenate the voices from the original videos to the Greta generated .avi videos.
 
 ```
