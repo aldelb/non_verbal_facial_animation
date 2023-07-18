@@ -1,4 +1,4 @@
-# generation_of_facial_animation
+# Generation of facial animation
 The code contains a model to jointly and automatically generate the rhythmic head, facial, and gaze movements (non-verbal behaviors) of a virtual agent from acoustic speech features. The architecture is an Adversarial Encoder-Decoder. Head movements and gaze orientation are generated as 3D coordinates, while facial expressions are generated using action units based on the facial action coding system. 
 
 ## Example
