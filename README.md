@@ -30,16 +30,16 @@ Files with the suffix "moveSpeakerOnly" are those whose behaviors are set to 0 i
 To learn what section needs to be changed go see [the configuration file](docs/config_file.md).
 2. You can conserve the existing file or create a new one. 
 3. In the conda console, train the model by executing:
-'''
+```
 python PATH/TO/PROJECT/generation/train.py -params PATH/TO/CONFIG/FILE.cfg [-id NAME_OF_MODEL]
-'''
+```
 You can visualize the created graphics during training in the repository [saved_path] of your config file. By default "./generation/saved_models". 
 
 ### Behaviours generation
 In the conda console, generate behaviors by executing:
-'''
+```
 python PATH/TO/PROJECT/generation/generate.py -epoch [integer] -params PATH/TO/CONFIG/FILE.cfg -dataset [dataset]
-'''
+```
 The behaviors are generated in the form of 3D coordinates and intensity of facial action units. These are .csv files stored in the repository [output_path] of your config file. By default "./generation/data/output/MODEL_PATH".
 
 - -epoch: during training, if you trained in 1000 epochs, recording every 100 epochs, you must enter a number within [100;200;300;400;500;600;700;800;900;1000].
@@ -49,9 +49,9 @@ The behaviors are generated in the form of 3D coordinates and intensity of facia
 ### Models evaluation
 The objective evaluation of these models is conducted with measures such as dtw, curves visualization, visualization from PCA reduction, and jerk and acceleration measurements. 
 In the conda console, evaluate model objectively by executing:
-'''
+```
 python generation/evaluate.py -params PATH/TO/CONFIG/FILE.cfg -epoch [integer] -[PARAMETERS]
-'''
+```
 
 - -params: path to the config file. 
 PARAMETERS :
